@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Institute of Dhanbad</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo3.jpg.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>  
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>We offer courses in different streams such as Tech, Buisness, IT, Administrator, Commerce, Science and in various other field providing Bachelors as well as Phd level degree</p>
+         
+        <div class="row">
+            <div class="course-col">
+                <h3>Bachelor's Degree</h3>
+                <p>Undergraduate degree awarded by colleges and universities upon completion of a course of study lasting three to six years</p>
+            </div>
+            <div class="course-col">
+                <h3>Master's Degree</h3>
+                <p>Master's degree is an academic qualification granted at the postgraduate level to individuals who have successfully undergone study demonstrating a high level of expertise in a specific field of study or area of professional practice</p>
+            </div>
+            <div class="course-col">
+                <h3>Phd Degree</h3>
+                <p>Doctorate of Philosophy typically involves students independently conducting original and significant research in a specific field or subject, before producing a publication-worthy thesis</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>In Our University we have large infrastructure and has a campus of around 700 acres. We also have large teaching staff of around 200 plus teachers and studnets around 3 lakh plus. We provide every facility which our student require starting from study and academics we have a huge library where studnets can read, prior to this we have a large field for playing different games like cricket, football and many other athletics activity, we also have a very nice cafeteria where students can get themselves whatever they desire for their refreshment and we fulfill every aspect our children want in campus</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="Images/library.jpg.jpg">
+                <h3>World Class Library</h3>
+                <p>We have a large library containing collections of book, periodicals, comics, fictons, non-fictions and many other type of books to study</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/football.jpg.jpg">
+                <h3>Large Field</h3>
+                <p>We have a large field for playing different type of sports such as cricket, football and we even have basketball, vollyball, tennis, squash courts for playing</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/cafetaria.jpg.jpg">
+                <h3>Healthy Food and Tasty Food</h3>
+                <p>We have a nice and big cafeteria through which students can eat healthy and delicious food</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>And let's not forget to join with us on this wonderful path</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Yusuf</p>
+    </section>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

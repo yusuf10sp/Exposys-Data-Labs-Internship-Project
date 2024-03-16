@@ -1,0 +1,39 @@
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2024</h1>
+
+<section class="testimonial">
+    <h1>What our Students Says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nesciunt sed officia in debitis dolores nisi, voluptatibus maxime optio placeat eaque ea, non doloribus dicta voluptas molestias corrupti modi vero.</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="Images/female.jpg.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt, velit debitis enim ad officia voluptatibus neque asperiores praesentium similique sed, tempore quisquam veniam qui voluptatum at itaque, minima voluptatem!</p>
+                <h3>Aakanksha Biswas</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="Images/male.jpg.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt, velit debitis enim ad officia voluptatibus neque asperiores praesentium similique sed, tempore quisquam veniam qui voluptatum at itaque, minima voluptatem!</p>
+                <h3>MD Yusuf</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h1>Enroll for our Various Online Courses<br>Anywhere From The World</h1>
+    <a href=""class="hero-btn">CONTACT US</a>
+</section>
